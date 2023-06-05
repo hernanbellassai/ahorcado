@@ -1,0 +1,33 @@
+
+.caja{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.caja2{
+position:absolute;
+  
+
+  z-index: 2;
+
+
+}
+.ganaste{
+  display: flex;
+  margin-top: 3em;
+}
+.ganaste h1{
+  color: white;
+  
+  text-shadow:2px 2px 4px black;
+  font-size: 4em;
+  
+}
+.boton button{
+  background-color: #ffffff;
+  font-size: bold;
+  padding:6px 10px 6px 10px;
+  border-radius: 10px;
+}

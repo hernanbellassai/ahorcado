@@ -1,0 +1,65 @@
+img{
+  width:100%;
+}
+.imagen{
+  margin: 20px auto;
+  width: 130PX;
+ 
+
+}
+.mi-componente {
+  position: relative;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.mi-componente > .contenido {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  /* Estilos para el contenido del componente */
+}
+.mi-componente > .react-lottie {
+  position: absolute;
+  top: 3;
+  left: 5;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.pregunta{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.palabra{
+ display: flex;
+ justify-content: center;
+
+}
+.palo{
+  margin: 9px;
+  border-bottom: 2px solid black;
+  width: 32px;
+  height: 45px;
+  text-align: center;
+  font-size: 2.5em;
+}
+.botones button{
+  margin: 5px;
+ padding: 5px 5px ;
+ font-size: 1.3em;
+ background-color:white;
+ border: 1px dashed black;
+ border-radius: 4px;
+ cursor: pointer;
+ width: 35px;
+ text-align: center;
+
+}
