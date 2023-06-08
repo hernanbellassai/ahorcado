@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { PALABRAS } from "../assets/palabras";
 import "../css/juego.css";
 import { useNavigate } from "react-router-dom";
-import Lottie from "react-lottie";
+// import Lottie from "react-lottie";
 import animationData from "../assets/25059-gray-seagulls.json";
 import Contexto from "../contexto/Contexto";
 const Juego = () => {
@@ -61,19 +61,19 @@ const Juego = () => {
   //split transforma en un array
   console.log(palabra);
 
-  const lottieOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  // const lottieOptions = {
+  //   loop: true,
+  //   autoplay: true,
+  //   animationData: animationData,
+  //   rendererSettings: {
+  //     preserveAspectRatio: "xMidYMid slice",
+  //   },
+  // };
 
   return (
     <>
       <div className="mi-componente">
-        <Lottie options={lottieOptions} width={1000} height={500} />
+        {/* <Lottie options={lottieOptions} width={1000} height={500} /> */}
         <div className="contenido">
           <div className="pregunta">{PALABRAS[azar].pregunta}</div>
           <div className="palabra">
